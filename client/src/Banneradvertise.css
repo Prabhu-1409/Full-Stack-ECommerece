@@ -1,0 +1,53 @@
+.advertise{
+    height: 50%;
+    width: 50%;
+    margin-top: 20%;
+    color: white;
+    background-color: black;
+    border:2px solid grey;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
+.advertise-name{
+    font-weight: 600;
+    font-size: 4rem;
+}
+.name-container{
+    display: inline-flex;
+}
+.advertise-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 10%;
+    color: white;
+    margin-left:20%;
+    padding-bottom: 30px;
+}
+.textarea{
+    width: 25rem;
+    border-radius: 10px;
+    background-color: black;
+    border:2px solid gray;
+}
+.textarea::placeholder{
+    color: white;
+}
+.advertise-submit{
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    margin-left: 30%;
+    border: 2px solid white;
+    padding: 7px 25px;
+    border-radius: 30px;
+}
+.line1{
+    height: 0.5vh;
+    width: 20vw;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color: white;
+}

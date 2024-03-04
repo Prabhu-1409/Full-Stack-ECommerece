@@ -1,0 +1,71 @@
+.add-product{
+    height: fit-content;
+    width: 50rem;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.addproduct-name{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.add-productform{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.names{
+    font-weight: 500;
+    translate: -90px 0 0;
+    font-size: 0.9rem;
+}
+.names2{
+    font-weight: 500;
+    font-size: 0.9rem;
+    translate: -100px 0 0;
+}
+.names4{
+    font-weight: 500;
+    font-size: 0.9rem;
+    translate: -164px 0 0;  
+}
+.names5{
+    font-weight: 500;
+    font-size: 0.9rem;
+    translate: -95px 0 0;
+}
+.topic-align{
+    display: flex;
+    margin-left: 5%;
+}
+.submitbutton{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 40%;
+    border: 2px solid grey;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.addinput{
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: black;
+}
+.addinput::placeholder{
+    color: gray;
+}
+.line2{
+    height: 2px;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: white;
+}

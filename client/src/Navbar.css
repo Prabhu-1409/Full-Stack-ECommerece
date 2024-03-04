@@ -1,0 +1,69 @@
+nav{
+    height: 13vh;
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    padding: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+.menuicon{
+    display: none;
+}
+.cart{
+    height: 20px;
+}
+.account{
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    display: flex;
+    float: right;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.input{
+    border-radius: 15px;
+}
+input::placeholder{
+    translate: 5px -2px 0 ;
+}
+
+@media (max-width:700px){
+    nav{
+        height: 10vh;
+    }
+    .menuicon{
+        display: block;
+        right: 0;
+        float: right;
+        padding: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .responsive{
+        bottom: -4;
+        right: 0;
+        position: absolute;
+        top: 50px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: fit-content;
+        background-color: green;
+    }
+    .account{
+        display: flex;
+        gap: 20px;
+    }
+}

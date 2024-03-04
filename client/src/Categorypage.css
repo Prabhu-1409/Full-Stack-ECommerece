@@ -1,0 +1,16 @@
+.category-align{
+    display: flex;
+}
+.line4{
+    height: 1px;
+    width: 65%;
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.category-name{
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 1%;
+    margin-left: 3%;
+}

@@ -1,0 +1,32 @@
+#aligntext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+#price-availability{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#description{
+    text-align: justify;
+}
+.description-align{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#buynow{
+    color: black;
+    background-color: white;
+    border: 2px solid grey;
+}
+#product-name{
+    text-align: justify;
+}
+#align-button{
+    display: flex;
+    column-gap: 5px;
+    translate: 0 10px 0;
+}
